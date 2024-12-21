@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: rgb(236, 231, 231);
+}
+
+.head{
+  margin-top: 70px;
+}
+
+#navbar{
+  position: fixed;
+  z-index: 1;
+}
+
+.card1{
+  border: 2px solid rgb(226, 222, 222);
+  border-radius: 19px;
+  background-color: rgb(247, 245, 245);
+  width: 500px;
+  height: 300px;
+}
+.cardBtn{
+  border: none;
+  border-radius: 40px;
+  width: 60px;
+  background-color: rgb(119, 202, 230);
+  color: white;
+}
+.img{
+  transition: 2s;
+}
+.img:hover{
+  transform: scale(110%);
+}
+#narzo{
+  position: relative !important;
+}
+#narzo::after{
+  content: " ";
+  width: 0%  !important;
+  height: 3px  !important;
+  background-color: green  !important;
+  position: absolute  !important;
+  right: 0  !important;
+  bottom: 0  !important;
+  transition: all 0.5s !important;
+}
+#narzo:hover::after{
+  width: 100% !important;
+
+}
+
+.list{
+  list-style-type: none;
+}
